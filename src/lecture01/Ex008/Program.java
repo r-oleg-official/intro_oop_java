@@ -56,6 +56,5 @@ public class Program {
         }
         System.out.println();
         System.out.printf("magicalCount: %d, priestCount:  %d \n\n", magicianCount, priestCount);
-
     }
 }
