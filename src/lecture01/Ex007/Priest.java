@@ -46,7 +46,7 @@ public class Priest {
     }
 
     public void healed(int Hp) {
-//        this.hp = Hp + this.hp > this.maxHp ? this.maxHp : Hp + this.hp;
+        this.hp = Hp + this.hp > this.maxHp ? this.maxHp : Hp + this.hp;
     }
 
     public void GetDamage(int damage) {

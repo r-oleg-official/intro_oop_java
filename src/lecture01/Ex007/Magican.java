@@ -48,7 +48,7 @@ public class Magican {
 
     /** Метода лечения */
     public void healed(int Hp) {
-//        this.hp = Hp + this.hp > this.maxHp ? this.maxHp : Hp + this.maxHp;
+        this.hp = Hp + this.hp > this.maxHp ? this.maxHp : Hp + this.hp;
     }
 
     /** Метода нанесения урона */
