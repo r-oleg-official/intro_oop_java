@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class BaseHero {
     protected static int number;
-    protected static Random r;
+    public static Random r;
 
     protected String name;
     protected int hp;
